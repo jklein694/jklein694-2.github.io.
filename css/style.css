@@ -8,6 +8,7 @@ body {
 canvas {
   display: block;
   vertical-align: bottom;
+  
 }
 
 /* ---- particles.js container ---- */
@@ -27,16 +28,16 @@ canvas {
 
 .count-particles{
   background: #000022;
-  position: absolute;
-  top: 48px;
+  position: hidden;
+  top: 0px;
   left: 0;
-  width: 80px;
+  width: 0px;
   color: #13E8E9;
   font-size: .8em;
   text-align: left;
-  text-indent: 4px;
-  line-height: 14px;
-  padding-bottom: 2px;
+  text-indent: 0px;
+  line-height: 0px;
+  padding-bottom: 0px;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
@@ -51,10 +52,10 @@ canvas {
 }
 
 #stats{
-  border-radius: 3px 3px 0 0;
+  border-radius: 0px 0px 0 0;
   overflow: hidden;
 }
 
 .count-particles{
-  border-radius: 0 0 3px 3px;
+  border-radius: 0 0 0px 0px;
 }
