@@ -68,7 +68,7 @@ a:hover,a:active,a:focus{
     font-size: 4em;
     font-weight: 300;
     text-align: center;
-    overflow: hidden;
+    overflow: show;
     margin-bottom: 70px;
 }
 .block_title:before,.block_title:after {
@@ -94,12 +94,12 @@ a:hover,a:active,a:focus{
 //  02 - Header
 /////////////////////////////////////////////////////////////////////*/
 
-header{
+/* header{
 	background: url(../images/bg1.png) no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: 50% -50px;
-}
+} */
 .center {
     text-align: center;
     color: #fff;
@@ -109,7 +109,16 @@ header{
 	font-weight: 100;
 	font-size: 10em;
 	margin: 0;
+	margin-top: 30%;
+	z-index: 2;
 }
+canvas {
+	z-index: 1;
+	height: 100%;
+	top: 0px;
+	position: absolute;
+}
+
 .subheadline {
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 200;
